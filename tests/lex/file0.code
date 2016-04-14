@@ -1,0 +1,20 @@
+program
+
+f,n,i:integer
+
+# Here
+
+begin
+   assign 1 to f;
+     (n) in;
+   assign 1 to i;
+   # Comments
+
+   do
+      assign * f i to f;
+      assign + i 1 to i;
+   unless > i n;
+
+   (f) out;
+
+end.
